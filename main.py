@@ -24,7 +24,7 @@ def main():
                 time.sleep(2)
                 continue
                     
-            r = random.randint(1, 10)
+            r = random.randint(1, 300)
             print('Waiting ' + str(r) + ' seconds to repeat')
             time.sleep(r)
         else:
